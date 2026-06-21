@@ -113,3 +113,54 @@ li{
         padding:0;
     }
 }
+
+.actions{
+    margin-top:20px;
+}
+
+.btn{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    background:#111827;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:6px;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+
+    background:#374151;
+}
+@media print {
+
+    body {
+        background: white;
+        color: black;
+        font-size: 11px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn,
+    button {
+        display: none;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+}
